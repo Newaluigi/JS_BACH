@@ -1,0 +1,27 @@
+@import "./App.scss";
+@import "./header.scss";
+@import "./footer.scss";
+@import "./gallery.scss";
+@import "./roads.scss";
+@import "./home.scss";
+@import "./list.scss";
+
+// @font-face {
+//   font-family: "DancingScript";
+//   src: local ("DancingScript")
+//     url("../assets/Fonts/DancingScript-VariableFont_wght.ttf");
+// }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
